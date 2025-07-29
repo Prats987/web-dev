@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">Contact</a>
+        <hr>
+    </nav>
+    <div>
+    <form action="" method="post">
+        <h1>Registration Form</h1>
+        <label for="fullname">Full Name: </label>
+        <input type="text" full name="username" placeholder="Enter your fullname" required><br><br>
+        <label for="email">Email id: </label>
+        <input type="email" placeholder="Enter ur mail id" required><br><br>
+        <label for="password">Password: </label>
+        <input type="password" placeholder="enter strong password" required><br><br>
+        
+        <label for="Gender">Gender: </label>
+        <input type="radio" name="Gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" name="Gender" value="Female">
+        <label for="female">Female</label><br><br>
+        <label for="Country">Country: </label>
+        <select name="Country" >
+            <option value="ur country">Select ur country</option>
+            <option value="India">India</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Austria">Austria</option>
+            <option value="Italy">Italy</option>
+        </select><br><br>
+        <label for="file">Upload a file: </label><br><br>   
+        <input type="file" required><br><br>
+        
+        <label for="checkbox"><input type="checkbox">I agree to the terms and conditions.</label><br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    </div>
+    <footer>
+    <p> &copy; All rights reserved.</p>
+    </footer>
+</body>
+</html>
